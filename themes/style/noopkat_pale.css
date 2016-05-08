@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9999;
   position: relative;
   font-weight: 100;
+  line-height: normal;
 }
 
 h1, h2 {
@@ -44,6 +45,27 @@ h3.fade {
 
 .black {
   color: #333;
+}
+
+.white {
+  color: #efefef;
+}
+
+.cool {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6232e+19,8b15c1+55,628cef+83 */
+  background: #c6232e; /* Old browsers */
+  background: -moz-linear-gradient(left,  #c6232e 19%, #8b15c1 55%, #628cef 83%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #c6232e 19%,#8b15c1 55%,#628cef 83%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #c6232e 30%,#8b15c1 55%,#628cef 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6232e', endColorstr='#628cef',GradientType=1 ); /* IE6-9 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  /*width: 50%;*/
+}
+
+.biggggg {
+  font-size: 20em;
 }
 
 a {
@@ -158,6 +180,32 @@ iframe {
   color: #D1E9AA;
   border-bottom: 5px #793500 solid;
   display:inline-block;
+}
+
+.subb {
+  font-size: 0.45em;
+  color: #666;
+  padding-top: 0.5em;
+}
+
+.stars {
+  background-image: url('../../img/starbg-grey.gif'); 
+}
+
+.code {
+  /*background-color: #f0f0f0;*/
+  background-color: #272822;
+}
+
+.caption a {
+  color: #fff !important;
+  text-shadow: 3px 3px 4px #000;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  z-index: 9000;
+  font-family: sans-serif;
+  font-size: 0.8em;
 }
 
 
