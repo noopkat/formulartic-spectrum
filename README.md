@@ -4,3 +4,5 @@ A subway themed talk about javascript art and data manipulation.
 
 [View the slideshow](http://noopkat.github.io/formulartic-spectrum)
 
+![cover slide](img/cover.png)
+
