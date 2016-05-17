@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'cookiesandmilk';
+  src: url('../../fonts/cookiesandmilk-regularPro.otf') format('truetype');
+}
+
 body {
   text-transform: none !important;
   padding:0;
@@ -73,7 +78,7 @@ a {
 }
 
 .deck-container {
-  font-family: 'Cookies and Milk', sans-serif;
+  font-family: 'cookiesandmilk', sans-serif;
 }
 
 .slide {
